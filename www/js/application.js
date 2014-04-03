@@ -20,8 +20,8 @@ function setupDefaultView() {
     var bodyView = viewAssembler.defaultView(); 
     
     //Setup the default view
-    var defaultView = { title: "Welcome!", 
-    view:  bodyView,
+    var defaultView = { title: "Main Menu", 
+		view:  bodyView,
     };
     
     //Setup the ViewNavigator
@@ -32,7 +32,7 @@ function setupDefaultView() {
 }
 
 function onMapButtonClick( event ) {
-    var view = { title: "Map",
+    var view = { title: "About CoralWatch",
              backLabel: (isTablet() ? "Back" : " "),
              view: viewAssembler.mapView(),
              scroll:false
@@ -67,7 +67,7 @@ function onSearchResultMapButtonClick( event ) {
     //console.log( centerPoint.x, centerPoint.y );
     centerPoint = new L.LatLng(centerPoint.y, centerPoint.x);
 
-    var view = { title: "Map",
+    var view = { title: "Tutorial",
              backLabel: (isTablet() ? "Back" : " "),
              view: viewAssembler.mapView(centerPoint),
              scroll:false
@@ -79,7 +79,7 @@ function onSearchResultMapButtonClick( event ) {
 
 
 function onAboutViewClick( event ) {
-    var view = { title: "About",
+    var view = { title: "Add new survey",
              backLabel: (isTablet() ? "Back" : " "),
              view: viewAssembler.aboutView()
            };
@@ -89,7 +89,7 @@ function onAboutViewClick( event ) {
 }
 
 function onSearchViewClick( event ) {
-    var view = { title: "List",
+    var view = { title: "Add new survey",
              backLabel: (isTablet() ? "Back" : " "),
              view: viewAssembler.searchView(),
            };
@@ -100,7 +100,7 @@ function onSearchViewClick( event ) {
 
 function onNearbyViewClick( event ) {
 
-    var view = { title: "Nearby",
+    var view = { title: "Add new survey",
              view: viewAssembler.findNearbyView()
            };
     window.viewNavigator.pushView( view );
