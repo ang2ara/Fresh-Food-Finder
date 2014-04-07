@@ -200,15 +200,18 @@ body {
 #defaultView {
     /** 
 		background-image:url('graphics/wheat_bg_nocolor.png');
+		background-position: bottom center;
+		background-repeat:no-repeat;
 	**/
-    background-position: bottom center;
-    background-repeat:no-repeat;
+	background-color:6fabdd;
+    
 }
 
 
 
 @media only screen and (min-width:760px) {
     #defaultView {
+		background-color:6fabdd;
         /**
 			background-image:url('graphics/wheat_bg.png');
 		**/

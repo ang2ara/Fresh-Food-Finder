@@ -79,7 +79,7 @@ function onSearchResultMapButtonClick( event ) {
 
 
 function onAboutViewClick( event ) {
-    var view = { title: "Add new survey",
+    var view = { title: "About CoralWatch",
              backLabel: (isTablet() ? "Back" : " "),
              view: viewAssembler.aboutView()
            };
@@ -100,7 +100,7 @@ function onSearchViewClick( event ) {
 
 function onNearbyViewClick( event ) {
 
-    var view = { title: "Add new survey",
+    var view = { title: "Tutorial",
              view: viewAssembler.findNearbyView()
            };
     window.viewNavigator.pushView( view );
