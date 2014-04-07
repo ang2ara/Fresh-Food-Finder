@@ -2,7 +2,7 @@
 var templates = {
     aboutViewTemplate:"views/aboutViewTemplate.html",
     defaultViewTemplate:"views/defaultViewTemplate.html",
-    findMarketsNearMeViewTemplate:"views/tutorialMeViewTemplate.html",
+    findMarketsNearMeViewTemplate:"views/findMarketsNearMeViewTemplate.html",
     geoPermissionDeniedViewTemplate:"views/geoPermissionDeniedViewTemplate.html",
     mapViewTemplate:"views/mapViewTemplate.html",
     marketDetailsViewTemplate:"views/marketDetailsViewTemplate.html",
